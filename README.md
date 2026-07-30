@@ -38,17 +38,6 @@ To make it realistic, I used a CSV file with 7 different city pairs so each virt
 - 90th percentile at 100 users was 777ms meaning 90% of users got a response under 1 second which is a good result
 - Find Flights page was consistently the slowest step across all 3 tests — this makes sense as it does a search query
 
-## Screenshots
-
-### 50 users
-![50 users report](screenshots/report-50users.png)
-
-### 100 users
-![100 users report](screenshots/report-100users.png)
-
-### 200 users
-![200 users report](screenshots/report-200users.png)
-
 ## How to run this test
 1. Download and install Apache JMeter
 2. Open test-plan/BlazeDemoProject.jmx in JMeter
